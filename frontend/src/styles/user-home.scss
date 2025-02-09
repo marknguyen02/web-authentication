@@ -1,0 +1,17 @@
+.user-home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    .user-home-logout-button {
+        cursor: pointer;
+        font-size: 16px;
+        border-radius: 5px;
+        padding: 5px 15px;
+
+        &:hover {
+            background-color: #d3d3d3;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+.login-layout {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .login-widget {
+        height: 600px;
+        width: 400px;
+        border: 1px solid #d3d3d3;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .login-header {
+            padding: 40px;
+            span {
+                color: white;
+                font-size: 40px;
+                font-weight: 600;
+            }
+        }
+    }
+}
